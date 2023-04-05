@@ -14,7 +14,7 @@ int main()
 {
     char s1[200], s2[200];
     int n;
-    puts("Enter two strings: ");
+    printf("Enter two strings: ");
     gets(s1);
     gets(s2);
     n = compare(s1, s2);

@@ -19,7 +19,7 @@ int main()
 {
     char s1[200], ch;
     int f, i = 0, j, k;
-    puts("Enter the string: ");
+    printf("Enter the string: ");
     gets(s1);
     while (s1[i] != '\0')
     {

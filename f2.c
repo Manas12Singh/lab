@@ -12,7 +12,7 @@ Output: Good Afternoon
 int main()
 {
     char s1[200], s2[200];
-    int i = 0, j;
+    int i, j = 0;
     printf("Input string1: ");
     gets(s1);
     printf("Input string2: ");
@@ -23,6 +23,7 @@ int main()
         s1[i + j] = s2[j];
         j++;
     }
+    s1[i + j] = '\0';
     puts(s1);
     return 0;
 }
