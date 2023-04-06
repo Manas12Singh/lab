@@ -5,6 +5,7 @@ int cmp(const void* a,const void* b)
 {
     return (*(char*)a-*(char*)b);
 }
+
 int main()
 {
     char s1[200];
@@ -25,6 +26,7 @@ int main()
             f++;
         i++;
     }
+    puts(s1);
     //printf("%d\n",max);       //max frequency
     return 0;
 }
